@@ -19,5 +19,4 @@ class PepSpider(scrapy.Spider):
                                                         ),
             'name': response.css('h1::text').re_first(r'\W (?P<name>\D+ .*)'
                                                       ),
-            'status': response.css('dt:contains("Status") + dd::text').get(), }
-                           )
+            'status': response.css('dt:contains("Status") + dd::text').get()})
