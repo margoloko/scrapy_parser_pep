@@ -1,4 +1,4 @@
-# scrapy_parser_pep
+#### scrapy_parser_pep
 ## Описание проекта
 Проект представляет собой веб-скрапер для получения информации о PEP . Скрипт использует библиотеку scrapy для парсинга информации о PEP с веб-страниц https://www.python.org/dev/peps/. Полученная информация сохраняется в CSV-файл и содержит номер, название и текущий статус каждого PEP.
 
@@ -27,5 +27,5 @@ scrapy crawl pep
 - Python
 - Scrapy
 
-### Автор:
-Балахонова Марина
+### Author:
+[Balakhonova Marina](https://github.com/margoloko)
